@@ -43,7 +43,7 @@ int main() {
     int s=binary(key,arr,n);
     if(s!=-1)
     {
-        cout<<"Element found at index:"<<s;
+        cout<<"Element is found at index:"<<s;
     }
     else
     {
