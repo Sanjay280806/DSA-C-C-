@@ -9,7 +9,7 @@ int maxsum(vector<int>&arr,int k)
     int n = arr.size();
     if(n<=k)
     {
-        cout<<"Invalid";
+        cout<<" Invalid ";
         return -1;
     }
 
