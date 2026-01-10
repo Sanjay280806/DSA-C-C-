@@ -27,7 +27,6 @@ int binary(int key,int a[],int n)
     return -1;
 }
 int main() {
-    // Write C++ code here
     int n;
     cout<<"Enter no. of elements: ";
     cin>>n;
@@ -47,7 +46,7 @@ int main() {
     }
     else
     {
-        cout<<"Element is not found";
+        cout<<" ERROR!!!..Element not found";
     }
     return 0;
 }
