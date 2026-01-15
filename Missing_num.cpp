@@ -18,7 +18,7 @@ int main()
     int n,missing;
     cout<<"Enter the number of elements: ";
     cin>>n;
-    cout<<"Enter the array elements from 0 to n: ";
+    cout<<"Enter the array elements : ";
     int exp=0,act=0;
     for(int i=0;i<n;i++)
     {
