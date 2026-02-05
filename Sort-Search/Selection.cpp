@@ -1,0 +1,34 @@
+
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int n;
+    cout << "Enter the number of elements: ";
+    cin >> n;
+    vector<int> arr(n);
+    cout << "Enter array elements: ";
+    for (int i = 0; i < n; i++)
+    {
+        cin >> arr[i];
+    }
+    for (int i = 0; i < n - 1; i++)
+    {
+        int num = i;
+        for (int j = i+1; j < n; j++)
+        {
+            if (arr[num] > arr[j])
+            {
+                num = j;
+            }
+        }
+        int temp = arr[i];
+        arr[i] = arr[num];
+        arr[num] = temp;
+    }
+    cout << "Sorted array: ";
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i] << " ";
+    }
+}
